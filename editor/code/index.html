@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Code Editor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="/style.css">
+  </head>
+
+  <body>
+    <center>
+        <br>
+        <h1 style="color: white;">anyEditor > Code Editor</h1>
+    </center>
+    <button onclick="html()" class="strt" style="float: top left;">Download .html file</button>
+    <button onclick="css()" class="strt" style="float: top center;">Download .css file</button>
+    <button onclick="js()" class="strt" style="float: top right;">Download .js file</button>
+    <button onclick="html();css();js();" class="strt" style="float: top right;" id="allo">Download all files</button>
+    <br>
+    <br>
+    <textarea placeholder="HTML" class="textarea" id="htmlo"></textarea>
+    <textarea placeholder="CSS" class="textarea" id="csso"></textarea>
+    <textarea placeholder="JavaScript" class="textarea" id="jso"></textarea>
+    <br>
+    <br>
+    <iframe id="code" frameborder="0"></iframe>
+
+    <script type="text/javascript" src="sketch.js"></script>
+    <script src="/sketch.js"></script>
+  </body>
+</html>
